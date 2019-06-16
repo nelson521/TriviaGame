@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: hsl(188, 92%, 42%);
+  font-family: 'Arapey', serif;
+}
+
+.jumbotron{
+  margin-top: 10px;
+  background-color: hsl(239, 53%, 38%);
+  box-shadow: 0 8px 15px -6px rgb(15, 15, 15);
+  border: 4px solid hsl(220, 33%, 98%);
+}
+
+.btn{
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+
+h1{
+  font-family: 'Arapey', serif;
+  text-align: center;
+  font-weight: bold;
+  color: hsl(220, 33%, 98%);
+  text-shadow: 3px 1px 2px rgb(15, 15, 15);
+}
+
+h3{
+  text-align: center;
+}
