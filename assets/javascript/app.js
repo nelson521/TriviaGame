@@ -1,5 +1,9 @@
 $(document).ready(function () {
-  var timeStarts = 15;
+  var timeStarts = 16;
+  var win;
+  var lost;
+  var correctAnswer = ["alfred", "lois lane", "mary jane", "scott", "britney spears"];
+  var userResponse = [];
   $('#countDown').text(timeStarts);
   var timer; 
   // Hide the game 
@@ -19,7 +23,20 @@ $(document).ready(function () {
     // Start timer once you click the button
     timer = setInterval(updateTimer, 1000);
     // timer goes backwards starting a 15
+    updateTimer();
+    $(this).hide();
   });
+
+  $('button.submit').on('click', function() {
+    var radioVal = $("input[name='ques1']:checked").val();
+    
+  });
+  
+  
+
+  
+
+
 
   
 });
